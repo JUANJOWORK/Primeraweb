@@ -1,0 +1,10 @@
+body{
+    background-color: brown;
+}
+/*se le asigna un valor cuando el ancho minimo sea 480
+o mayor a 480 tomara el color*/
+@media only screen and (min-width:480px){ /*only: hace que los navegadores actiguos acepten estas especificaciones*/
+    body{
+        background-color: cadetblue;
+    }
+}
